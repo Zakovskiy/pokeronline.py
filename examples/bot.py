@@ -1,6 +1,6 @@
 from pokeronline import pokeronline
 
-Poker = durakonline.Client("access_token")
+Poker = pokeronline.Client("access_token")
 
 @Poker.event(command="user_msg")
 def event(data):
